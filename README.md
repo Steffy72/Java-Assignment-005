@@ -18,6 +18,18 @@ As a new Java developer, you will be required to familiarize yourself with exist
     * What parameters does it require, and what are the parameter(s) datatype(s)?
     * Describe for me how the body of the method executes (i.e. its flow of execution).
     * How do the format specifiers differ than what you've seen before and what do they do?
+  * What is the access modifier? public
+  * Is it a class or object method, how do you know? method since there is no class and it has parameters
+  * What is its return type? double
+  * What parameters does it require, and what are the parameter(s) datatype(s)? double ,fahrenheit, temperature and 
+  * Describe for me how the body of the method executes (i.e. its flow of execution).uses fahrenheit to convert to celsius, then it converts celsius to kelvin
+* Using Java terminology, break down method **getUnitChoice**.
+  * What is the access modifier?Public
+  * Is it a class or object method, how do you know? object method no class 
+  * What is its return type? string 
+  * What parameters does it require, and what are the parameter(s) datatype(s)?no datatypes set
+  * Describe for me how the body of the method executes (i.e. its flow of execution). it prints 4 strings and returns input of the scanner
+  * How do the format specifiers differ than what you've seen before and what do they do? %-4 adds four spaces in the string before colon 
 
 ## Part 2: - Implement Missing Method: convertK2F
 This Part is aimed at teaching you to use methods and code you have to add new functionality to existing code. In this case you will add the missing conversion method, but you don't need to know math :-)
